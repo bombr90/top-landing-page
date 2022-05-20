@@ -1,0 +1,171 @@
+/*style.css*/
+body    {
+    display:flex;
+    width: 1500px;    
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid black;
+}
+
+ul  {
+    display: flex;
+    list-style: none;
+    gap: 24px;
+    margin: 0px;
+    padding: 0px;
+}
+
+a   {
+    text-decoration: none;
+}
+
+button  {
+    font-weight: 700;
+    font-size: 18px;
+    padding: 8px 12px;
+    border-radius: 10px;
+    border-color: #ffffff;
+    width: 150px;
+}
+
+img {
+}
+/*Colors and Fonts*/
+.header, .footer {
+    display: flex;
+    background-color: #1F2937;
+}
+
+.hero-main   {
+    font-size: 48px;
+    font-weight:900;
+    color: #F9FAF8;
+}
+
+.hero-secondary, a  {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FAF8
+}
+
+button, .cta    {
+    background: #3882F6;
+    color: #ffffff;
+}
+
+.info-header    {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-bottom: 50px;
+}
+
+.quote-section  {
+    font-size: 36px;
+    font-style:italic;
+    margin-bottom: 8px;
+}
+
+.name   {
+    font-weight: 700;
+    font-size: 24px;
+    font-style: normal;
+    text-align: right;
+}
+/*Container Classes*/
+body, .header, .col, .info {
+display: flex;
+flex-direction: column;
+}
+
+.header {
+    padding: 25px 175px 100px 175px;
+}
+
+.row    {
+    display:flex; 
+    align-items: stretch;
+    gap: 24px;
+}
+
+.row2    {
+    display:flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.row3   {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 125px 250px 125px 250px;
+    width: auto;
+}
+.col    {
+    width: 50%;
+    gap: 12px;
+    flex: 1;
+}
+
+.col img    {
+    flex: 1;
+    color: #ffffff;
+    background-color: #808080;
+    text-align: center;
+}
+.nav    {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.info  {
+    align-items: center;
+    padding: 50px;    
+}
+
+img.caption {
+    height: 150px;
+    width: 100%;
+    border-radius: 16px;
+    border: 3px solid #3882F6;
+    margin-bottom: 8px;
+}
+
+.info-col   {
+    width: 150px;
+    word-wrap: normal;   
+    text-align: center;
+
+}
+
+.cta {
+    display:flex;
+justify-content: space-between;
+    padding: 50px 150px;
+    margin: 100px 150px;
+    width: 50%;
+    border-radius: 8px;
+}
+
+.cta-title    {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.cta-text   {
+    font-size: 18px;
+}
+
+.footer {
+    color: #ffffff;
+    width: 100%;
+    padding: 50px 0px;
+    justify-content: center;
+    font-size: 18px;
+}
