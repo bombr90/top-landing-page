@@ -1,10 +1,8 @@
 /*style.css*/
 body    {
-    display:flex;
-    width: 1500px;    
+    display:flex;    
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
-    border: 1px solid black;
 }
 
 ul  {
@@ -28,23 +26,24 @@ button  {
     width: 150px;
 }
 
-img {
-}
 /*Colors and Fonts*/
 .header, .footer {
-    display: flex;
+    flex: 1;
     background-color: #1F2937;
+    width:100%;
 }
 
 .hero-main   {
     font-size: 48px;
     font-weight:900;
     color: #F9FAF8;
+    margin: 0;
 }
 
 .hero-secondary, a  {
     font-size: 18px;
     color: #E5E7EB;
+    margin: 0;
 }
 
 .logo {
@@ -74,8 +73,8 @@ button, .cta    {
 .name   {
     font-weight: 700;
     font-size: 24px;
-    font-style: normal;
     text-align: right;
+    margin: 0;
 }
 /*Container Classes*/
 body, .header, .col, .info {
@@ -83,13 +82,9 @@ display: flex;
 flex-direction: column;
 }
 
-.header {
-    padding: 25px 175px 100px 175px;
-}
-
 .row    {
+    padding: 0px 175px 100px 175px;
     display:flex; 
-    align-items: stretch;
     gap: 24px;
 }
 
@@ -112,7 +107,10 @@ flex-direction: column;
 }
 
 .col img    {
-    flex: 1;
+    max-width: 600px;
+    max-height: 300px;
+    min-width: 300px;
+    min-height: 150px;
     color: #ffffff;
     background-color: #808080;
     text-align: center;
@@ -122,6 +120,7 @@ flex-direction: column;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 100px;
+    padding: 25px 175px;
 }
 
 .info  {
@@ -156,16 +155,17 @@ justify-content: space-between;
 .cta-title    {
     font-size: 24px;
     font-weight: 700;
+    margin: 0;
 }
 
 .cta-text   {
     font-size: 18px;
+    margin: 0;
 }
 
 .footer {
     color: #ffffff;
-    width: 100%;
     padding: 50px 0px;
-    justify-content: center;
+    text-align: center;
     font-size: 18px;
 }
